@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonta Awesome -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' integrity='sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==' crossorigin='anonymous'/>
+
   <link rel="stylesheet" href="css/style.css">
   <title>Discord</title>
 </head>
@@ -11,7 +15,7 @@
 <header>
     <div class="container navbar">
       <div class="row d-flex">
-        <div class="col"> logo </div>
+        <div class="col"> <img src="./img/logo.svg" alt="Logo Discord"> </div>
         <div class="col"> 
            <nav>
              <ul class="d-flex">
@@ -23,16 +27,16 @@
              </ul>
            </nav>
         </div>
-         <input class= "button" type="button" value="Accedi"> 
+         <input class= "button" type="button" value="Accedi"><a href="#"></a>
       </div>
     </div>
 </header>
 
 <main>
   <!-- secondo container -->
-  <div class="background-2">
-    <div class="container blue">
-      <div class="row">
+  <div class="background-img d-flex">
+    <div class="container d-flex">
+      <div class="row d-flex">
         <div class="col">
           <h2 class="h1">Il tuo posto per parlare</h2>
 
@@ -40,7 +44,7 @@
 
           <input class="button mac" type="button" value=" &#8595 Scarica per Mac">
 
-          <input class="button discord"type="button" value="&#8595 Apri Discord nel tuo browser">
+          <input class="button discord"type="button" value="Apri Discord nel tuo browser">
         </div>
       </div>
     </div>
@@ -48,49 +52,84 @@
 
   <!-- terzo container -->
   <div class="background-white">
-    <div class="container white">
+    <div class="container">
       <div class="row d-flex">
-        <div class="col-img">img</div>
-        <div class="col-text">text</div>
+        <div class="col-img"><img src="./img/item1.svg" alt="item1"></div>
+        <div class="col-text">
+          <h3>Un luogo a invito con tutto lo spazio necessario per parlare </h3>
+          <p>I server Discord sono organizzati in canali telematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- quarto container -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f7f6f7" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,133.3C480,117,600,75,720,80C840,85,960,139,1080,133.3C1200,128,1320,64,1380,32L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
   <div class="background-gray">
-    <div class="container gray">
+    <div class="container">
       <div class="row d-flex">
-        <div class="col-text-gray">text</div>
-        <div class="col-img-gray">img</div>
+        <div class="col-text-gray">
+           <h3>Dove trovarsi è facile</h3>
+            <p>Mettiti comodo in un canale vocale qundo hai tempo. Gli amici del tuo server possono vedere che sei lì e unirsi instantaneamente senza dover chiamare.</p>
+        </div>
+        <div class="col-img-gray"><img src="./img/item2.svg" alt="item2"></div>
       </div>
     </div>
   </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f7f6f7" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,133.3C480,117,600,75,720,80C840,85,960,139,1080,133.3C1200,128,1320,64,1380,32L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+</svg>
 
   <!-- quinto container -->
   <div class="background-white">
-    <div class="container white">
+    <div class="container">
       <div class="row d-flex">
-        <div class="col-img">img</div>
-        <div class="col-text">text</div>
+        <div class="col-img"><img src="./img/item3.svg" alt="item3"></div>
+        <div class="col-text">
+          <h3>Da pochi a un fandom</h3>
+          <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- sesto container -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f7f6f7" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,133.3C480,117,600,75,720,80C840,85,960,139,1080,133.3C1200,128,1320,64,1380,32L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
   <div class="background-gray">
-    <div class="container gray">
-      <div class="row">
-        <div class="col-tot">ok</div>
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col">
+          <h3 class="tech-h3">Tecnologia affidabile per tenersi in contatto</h3>
+          <p class="tech">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in sreaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+        </div>
       </div>
-    </div>
+     
+      <img class="image"src="./img/item4-big.svg" alt="item4-big">
+     
+      <div>
+        <img class="image" src="./img/stars.svg" alt="stars">
+        <h4>Pronto a iniziare la tua nuova avventura?</h4>
+        <input class="button mac-2" type="button" value=" &#8595 Scarica per Mac">
+      </div>
   </div>
 
   <!-- ultimo container -->
   <div class="background-black">
     <div class="container black d-flex">
       <div class="row d-flex end">
-        <div class="col-pos">Il tuo posto per parlare</div>
-        <div class="col-end">Prodotto
+        <div class="col-pos "> 
+          <h3>Il tuo posto per parlare</h3>
+          <img class="img-ita" src="./img/ita.png" alt="ita">
+          <p class="it">Italiano  &#9660 </p>
+           <div class="loghi">
+             <a href="#"> <i class="fa-brands fa-x-twitter"></i></a>    
+              <a href="#"><i class="fa-brands fa-instagram"></i></a></i>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a></i>
+              <a href="#"> <i class="fa-brands fa-youtube"></i></a></i>
+          </div>
+        </div>
+
+        
+        <div class="col-end"><strong> Prodotto</strong>
           <ul class="black-ul">
             <li><a href="#">Scarica</a></li>
             <li><a href="#">Perchè Discord</a></li>
@@ -100,7 +139,7 @@
           </ul>
         </div>
           
-        <div class="col-end">Compagnia
+        <div class="col-end"><strong>Compagnia</strong>
           <ul class="black-ul">
             <li><a href="#">Chi siamo</a></li>
             <li><a href="#">Lavora con noi</a></li>
@@ -111,7 +150,7 @@
         </div>
    
         
-        <div class="col-end">Risorse
+        <div class="col-end"> <strong>Risorse</strong>
          <ul class="black-ul">
             <li><a href="#">Scarica</a></li>
             <li><a href="#">Perchè Discord</a></li>
@@ -128,8 +167,7 @@
         </div>
 
 
-
-        <div class="col-end">Nome
+        <div class="col-end"> <strong>Nome</strong>
            <ul class="black-ul">
               <li><a href="#">Scarica</a></li>
               <li><a href="#">Perchè Discord</a></li>
@@ -144,10 +182,12 @@
 
   <hr>
   <div class="background-black final"> 
-    <div class="container end-c">
+    <div class="container">
       <div class="row d-flex final-">
-        <div class="col-ul">logo</div>
-        <div class="col-ul-1">registrati </div>
+        <div class="col">
+          <img src="./img/logo.svg" alt="logo">
+        </div>
+        <input class="button re" type="button" value="Registrati">
       </div>
      </div>
        
